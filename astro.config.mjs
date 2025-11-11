@@ -6,7 +6,9 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  // Add your domain name here
-  site: "https://yourwebsite.com/",
+  // 👉 YOUR PERSONAL DOMAIN ----------------------------------------------------
+  // Replace the URL below with the domain where you’ll host the site.
+  // Keeping the trailing slash is important for correct canonical URLs.
+  site: "https://yourname.com/",
   integrations: [ sitemap()]
 });
